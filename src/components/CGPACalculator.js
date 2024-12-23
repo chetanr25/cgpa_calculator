@@ -17,7 +17,7 @@ function CGPACalculator() {
 
   useEffect(() => {
     calculateCGPA();
-  }, [subjects]); // This will trigger whenever subjects state changes
+  }, [subjects]);
 
   const handleMarksChange = (id, value) => {
     if (value === "" || (Number(value) >= 0 && Number(value) <= 100)) {
