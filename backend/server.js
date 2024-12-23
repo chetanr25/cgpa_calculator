@@ -14,7 +14,7 @@ const calculateGradePoints = (marks) => {
   if (marks >= 60) return 7;
   if (marks >= 50) return 6;
   if (marks >= 45) return 5;
-  if (marks >= 40) return 4;
+  if (marks >= 40) return 0;
   return 0;
 };
 
